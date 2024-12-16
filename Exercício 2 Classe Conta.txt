@@ -1,0 +1,72 @@
+Exercício 2: Classe Conta Bancária
+
+Crie uma classe chamada ContaBancaria que possua:
+
+    Atributos privados: numeroConta, titular, saldo.
+    Construtor que inicialize o número da conta e o titular com um saldo inicial de 0.
+    Métodos:
+        depositar(double valor): Adiciona dinheiro à conta.
+        sacar(double valor): Retira dinheiro da conta, verificando se há saldo suficiente.
+        getSaldo(): Retorna o saldo atual da conta.
+
+Teste: No método main, crie uma conta bancária, realize depósitos e saques, e exiba o saldo em cada operação.
+Exercício 3: Classe Produto
+
+Crie uma classe chamada Produto para gerenciar um estoque:
+
+    Atributos privados: nome, preco, quantidade.
+    Construtor que inicialize todos os atributos.
+    Métodos:
+        adicionarEstoque(int quantidade): Adiciona uma quantidade ao estoque.
+        removerEstoque(int quantidade): Remove uma quantidade do estoque, verificando se há estoque suficiente.
+        exibirDetalhes(): Exibe o nome, preço e quantidade disponível do produto.
+
+Teste: No método main, crie um produto, adicione e remova itens do estoque, exibindo os detalhes em cada etapa.
+Exercício 4: Classe Pessoa
+
+Crie uma classe chamada Pessoa que possua:
+
+    Atributos privados: nome, idade, cpf.
+    Construtor que inicialize todos os atributos.
+    Métodos:
+        getNome(), getIdade() e getCpf(): Retornam os valores dos atributos.
+        setNome(), setIdade() e setCpf(): Permitem alterar os atributos.
+        exibirInfo(): Exibe todas as informações da pessoa.
+
+Teste: No método main, crie uma pessoa, modifique algumas informações e exiba os dados.
+Exercício 5: Classe Livro
+
+Crie uma classe chamada Livro que possua:
+
+    Atributos privados: titulo, autor, quantidadePaginas, paginaAtual.
+    Construtor que inicialize o título, o autor e a quantidade de páginas, e defina paginaAtual como 0.
+    Métodos:
+        avancarPagina(): Incrementa a página atual em 1, sem ultrapassar o total de páginas.
+        voltarPagina(): Decrementa a página atual em 1, sem ser menor que 0.
+        exibirStatus(): Exibe o título, autor e o progresso atual no formato: "Página X de Y".
+
+Teste: No método main, crie um livro, avance e volte páginas, exibindo o status a cada etapa.
+Exercício 6: Classe Carro
+
+Crie uma classe chamada Carro que possua:
+
+    Atributos privados: modelo, marca, consumoCombustivel (km por litro).
+    Construtor que inicialize todos os atributos.
+    Métodos:
+        calcularAutonomia(double litrosCombustivel): Retorna quantos quilômetros o carro pode percorrer com a quantidade de combustível fornecida.
+        exibirDetalhes(): Exibe o modelo, a marca e o consumo do carro.
+
+Teste: No método main, crie um carro, calcule sua autonomia com diferentes quantidades de combustível e exiba os detalhes.
+Exercício 7: Classe Turma
+
+Crie uma classe chamada Turma que possua:
+
+    Atributos privados: nomeTurma, alunos (um ArrayList de objetos da classe Pessoa).
+    Construtor que inicialize o nome da turma.
+    Métodos:
+        adicionarAluno(Pessoa aluno): Adiciona um aluno à turma.
+        removerAluno(Pessoa aluno): Remove um aluno da turma.
+        listarAlunos(): Exibe os nomes de todos os alunos.
+
+Teste: No método main, crie uma turma, adicione alguns alunos e exiba a lista de alunos.
+
