@@ -35,6 +35,8 @@ public class RetanguloProgram {
         rec.setWidth(width);
         rec.setHeight(height);
 
+
+
         System.out.println();
         System.out.printf("WIDTH = %.2f%n", rec.getWidth());
         System.out.printf("HEIGHT = %.2f%n", rec.getHeight());
