@@ -44,5 +44,7 @@ public class RetanguloProgram {
         System.out.printf("PERIMETER = %.2f%n", rec.Perimeter());
 
         System.out.println(rec);
+
+        sc.close();
     }
 }

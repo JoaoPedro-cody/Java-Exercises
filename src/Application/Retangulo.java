@@ -33,6 +33,7 @@ public class Retangulo {
         return width * height;
     }
 
+    @Override
     public String toString(){
         return   "The area of the rectangle is "
                 + String.format("%.2f", Area())
