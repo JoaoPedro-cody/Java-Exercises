@@ -25,19 +25,19 @@ public class Retangulo {
         this.height = height;
     }
 
-    public double Perimeter(){
+    public double perimeter(){
         return 2 * (height + width);
     }
 
-    public double Area(){
+    public double area(){
         return width * height;
     }
 
     @Override
     public String toString(){
         return   "The area of the rectangle is "
-                + String.format("%.2f", Area())
+                + String.format("%.2f", area())
                 + ", and the perimeter is "
-                + String.format("%.2f", Perimeter());
+                + String.format("%.2f", perimeter());
     }
 }

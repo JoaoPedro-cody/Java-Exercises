@@ -20,8 +20,8 @@ public class RetanguloProgram {
         System.out.printf("HEIGHT = %.2f%n", rec.getHeight());
 
         System.out.println();
-        System.out.printf("AREA = %.2f%n", rec.Area());
-        System.out.printf("PERIMETER = %.2f%n", rec.Perimeter());
+        System.out.printf("AREA = %.2f%n", rec.area());
+        System.out.printf("PERIMETER = %.2f%n", rec.perimeter());
 
         System.out.println();
         System.out.println(rec);
@@ -40,8 +40,8 @@ public class RetanguloProgram {
         System.out.printf("HEIGHT = %.2f%n", rec.getHeight());
 
         System.out.println();
-        System.out.printf("AREA = %.2f%n", rec.Area());
-        System.out.printf("PERIMETER = %.2f%n", rec.Perimeter());
+        System.out.printf("AREA = %.2f%n", rec.area());
+        System.out.printf("PERIMETER = %.2f%n", rec.perimeter());
 
         System.out.println(rec);
 
