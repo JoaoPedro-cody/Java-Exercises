@@ -10,6 +10,7 @@ public class SomaElementos {
         int n = sc.nextInt();
         int[] vecta = new int[n];
         int[] vectb = new int[n];
+        int[] vectc = new int[n];
 
         System.out.println("Enter the A vector values: ");
         for (int i = 0; i < vecta.length; i++) {
@@ -21,7 +22,6 @@ public class SomaElementos {
             vectb[i] = sc.nextInt();
         }
 
-        int[] vectc = new int[n];
 
         System.out.println("Resultant Vector = ");
         for (int i = 0; i < n; i++) {
