@@ -16,13 +16,17 @@ public class GuestHouseMain {
         for (int i = 0; i < n; i++) {
 
             System.out.println("Rent #" + (i + 1));
+
             System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
+
             System.out.print("Email: ");
             String email = sc.nextLine();
+
             System.out.print("Room: ");
             int room = sc.nextInt();
+
             vect[room - 1] = new GuestHouse(name, email, room);
             System.out.println();
 
