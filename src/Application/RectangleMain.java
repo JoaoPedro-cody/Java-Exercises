@@ -1,10 +1,10 @@
 package Application;
 
-public class Retangulo {
+public class RectangleMain {
     private double width;
     private double height;
 
-    public Retangulo(double width, double height) {
+    public RectangleMain(double width, double height) {
         this.width = width;
         this.height = height;
     }

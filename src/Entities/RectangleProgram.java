@@ -1,10 +1,10 @@
 package Entities;
 
-import Application.Retangulo;
+import Application.RectangleMain;
 
 import java.util.Scanner;
 
-public class RetanguloProgram {
+public class RectangleProgram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class RetanguloProgram {
         double width = sc.nextDouble();
         System.out.print("Height: ");
         double height = sc.nextDouble();
-        Retangulo rec = new Retangulo(width, height);
+        RectangleMain rec = new RectangleMain(width, height);
 
         System.out.println();
         System.out.printf("WIDTH = %.2f%n", rec.getWidth());

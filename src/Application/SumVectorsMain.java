@@ -2,7 +2,7 @@ package Application;
 
 import java.util.Scanner;
 
-public class SomaVetores {
+public class SumVectorsMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

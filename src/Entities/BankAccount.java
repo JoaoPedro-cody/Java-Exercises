@@ -1,11 +1,11 @@
 package Entities;
 
-public class ContaBancaria {
+public class BankAccount {
     private int accountNumber;
     private String holder;
     private double balance;
 
-    public ContaBancaria(int accountNumber, String holder, double balance) {
+    public BankAccount(int accountNumber, String holder, double balance) {
         this.accountNumber = accountNumber;
         this.holder = holder;
         this.balance = balance;

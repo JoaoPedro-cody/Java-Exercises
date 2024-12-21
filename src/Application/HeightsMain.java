@@ -1,16 +1,16 @@
 package Application;
 
-import Entities.Alturas;
+import Entities.Heights;
 
 import java.util.Scanner;
 
-public class AlturasMain {
+public class HeightsMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("How many people will be entered? ");
         int n = sc.nextInt();
-        Alturas[] vect = new Alturas[n];
+        Heights[] vect = new Heights[n];
 
         for (int i = 0; i < vect.length; i++) {
 
@@ -26,7 +26,7 @@ public class AlturasMain {
             System.out.print("Height: ");
             double height = sc.nextDouble();
 
-            vect[i] = new Alturas(name, age, height);
+            vect[i] = new Heights(name, age, height);
 
         }
 

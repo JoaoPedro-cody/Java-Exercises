@@ -1,6 +1,6 @@
 package Application;
 
-import Entities.ContaBancaria;
+import Entities.BankAccount;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class Banco {
         String holder = sc.nextLine();
         System.out.print("Balance: ");
         double balance = sc.nextDouble();
-        ContaBancaria conta = new ContaBancaria(accountNumber, holder, balance);
+        BankAccount conta = new BankAccount(accountNumber, holder, balance);
 
         System.out.println();
         System.out.println(conta);

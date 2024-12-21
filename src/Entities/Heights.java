@@ -1,11 +1,11 @@
 package Entities;
 
-public class Alturas {
+public class Heights {
     private String name;
     private int age;
     private double height;
 
-    public Alturas(String name, int age, double height) {
+    public Heights(String name, int age, double height) {
         this.name = name;
         this.age = age;
         this.height = height;

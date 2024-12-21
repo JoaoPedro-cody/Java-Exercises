@@ -2,12 +2,13 @@ package Application;
 
 import java.util.Scanner;
 
-public class NumerosPares {
+public class NegativeNumberMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("How many numbers to enter? ");
+        System.out.print("how many numbers to enter? ");
         int n = sc.nextInt();
+
         int[] vect = new int[n];
 
         for (int i = 0; i < vect.length; i++) {
@@ -16,19 +17,13 @@ public class NumerosPares {
         }
 
         System.out.println();
-        System.out.println("EVEN NUMBERS: ");
-        int count = 0;
+        System.out.println("Negatives Numbers: ");
         for (int j : vect) {
-            if (j % 2 == 0) {
-                System.out.print(j + " ");
-                count++;
+
+            if (j < 0) {
+                System.out.println(j);
             }
+
         }
-
-        System.out.println();
-        System.out.println();
-        System.out.println("NUMBER OF PAIRS: " + count);
-
-        sc.close();
     }
 }
