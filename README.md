@@ -1,44 +1,44 @@
-----Exercícios de Java: Objetos, Encapsulamento, Vetores e Listas----
+----Java Exercises: Objects, Encapsulation, Vectors and Lists----
 
-***Sobre o Repositório***
+***About the Repository***
 
-Este repositório contém uma série de exercícios práticos desenvolvidos para aprimorar meus conhecimentos em Java, com foco nos seguintes tópicos:
+This repository contains a series of practical exercises designed to improve my knowledge in Java, focusing on the following topics:
 
- * Objetos: Compreensão e implementação de classes e objetos.
+* Objects: Understanding and implementing classes and objects.
 
- * Encapsulamento: Uso de modificadores de acesso, getters e setters para proteger e controlar os dados.
+* Encapsulation: Using access modifiers, getters and setters to protect and control data.
 
- * Vetores: Manipulação de arrays unidimensionais.
+* Vectors: Manipulating one-dimensional arrays.
 
- * Listas: Uso de coleções como ArrayList para armazenar e gerenciar conjuntos dinâmicos de dados.
+* Lists: Using collections such as ArrayList to store and manage dynamic sets of data.
 
-***Tecnologias Utilizadas***
+***Technologies Used***
 
-Java: Linguagem de programação principal.
+Java: Main programming language.
 
 IDE: Intellij IDEA
 
-***Estrutura do Repositório***
+***Repository Structure***
 
- * src/: Contém todos os arquivos de código fonte organizados por tópico.
+* src/: Contains all source code files organized by topic.
 
-   * application/: Contém a classe principal (main) que executa os exercícios.
+* application/: Contains the main class (main) that executes the exercises.
 
-   * entities/: Contém as classes de objetos utilizadas nos exercícios.
-   
-***Como Executar***
+* entities/: Contains the object classes used in the exercises.
 
-Clone o repositório:
+***How ​​to Run***
+
+Clone the repository:
 
 1.git clone https://github.com/JoaoPedro-cody/ExerciciosJava
 
-2.Importe o projeto em sua IDE de preferência.
+2.Import the project into your preferred IDE.
 
-3.Navegue até a pasta src/application/ e execute o arquivo principal.
+3.Navigate to the src/application/ folder and run the main file.
 
-***Exemplo de Código***
+***Code Example***
 
-*Encapsulamento*
+*Encapsulation*
 
 package Entities;
 
@@ -81,9 +81,9 @@ public class Employee {
 
 }
 
-Contribuições
+Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para adicionar exercicios ou comentarios.
+Contributions are welcome! Feel free to add exercises or comments.
 
 
 
